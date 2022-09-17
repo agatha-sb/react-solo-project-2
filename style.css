@@ -19,7 +19,7 @@ span    {
 
 /* **** Utility Classes **** */
 .container  {
-    width: 1440px;
+    width: 570px;
     max-width: 100%;
     margin: 0 auto;
     padding-right: 1.5rem; 
@@ -45,7 +45,7 @@ header .header--text {
 /* ENTRY SECTION */
 .entry {
     gap: 0 19px;
-    margin: 18px 0;    
+    padding: 18px 0;    
 }
 .entry--content > div:not(:last-child)  {
     padding-bottom: 7px;
@@ -100,52 +100,3 @@ header .header--text {
     line-height: 15px;
     color: var(--c-black-700);
 }
-
-/* @media (min-width: 1400px)   {
-    html{
-        font-size: 26px;
-    }
-    .container  {
-    width: 1500px;
-    max-width: 100%;}
-}
-@media (min-width: 1200px)   {
-    html{
-        font-size: 26px;
-    }
-    .container  {
-    width: 1340px;
-    max-width: 100%;}
-}
-@media (min-width: 1024px)   {
-    html{
-        font-size: 26px;
-    }
-    .container  {
-    width: 1140px;
-    max-width: 100%;}
-}
-@media (min-width: 991px)   {
-    html{
-        font-size: 26px;
-    }
-    .container  {
-    width: 930px;
-    max-width: 100%;}
-}
-@media (min-width: 768px)   {
-    html{
-        font-size: 24px;
-    }
-    .container  {
-    width: 895px;
-    max-width: 100%;}
-}
-@media (min-width: 576px)   {
-    html{
-        font-size: 20px;
-    }
-    .container  {
-    width: 670px;
-    max-width: 100%;}
-} */
