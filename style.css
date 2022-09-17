@@ -19,7 +19,7 @@ span    {
 
 /* **** Utility Classes **** */
 .container  {
-    width: 480px;
+    width: 1440px;
     max-width: 100%;
     margin: 0 auto;
     padding-right: 1.5rem; 
@@ -101,7 +101,7 @@ header .header--text {
     color: var(--c-black-700);
 }
 
-@media (min-width: 1400px)   {
+/* @media (min-width: 1400px)   {
     html{
         font-size: 26px;
     }
@@ -148,4 +148,4 @@ header .header--text {
     .container  {
     width: 670px;
     max-width: 100%;}
-}
+} */
