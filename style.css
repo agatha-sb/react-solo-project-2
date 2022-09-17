@@ -39,6 +39,7 @@ header {
     padding-block: 1.25rem; /* 20px */
 }
 header .header--text {
+    font-family: 'Inter', sans-serif;
     color: var(--c-white-900);
     font-size: 0.937rem;  /* 15px */
 }
