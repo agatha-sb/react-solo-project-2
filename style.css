@@ -3,6 +3,7 @@
 :root {
     --c-primary: #F55A5A;
     --c-white-900: #FFFFFF;
+    --c-white-500: #F5F5F5;
     --c-black-700: #2B283A;
     --c-black-100: #918E9B;
 }
@@ -45,7 +46,19 @@ header .header--text {
 /* ENTRY SECTION */
 .entry {
     gap: 0 19px;
-    padding: 18px 0;    
+    padding: 18px 0;   
+    position: relative;
+}
+.entry:first-child {
+    margin-top: 40px;
+}
+.entry:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--c-white-500);
+    bottom: 0;
 }
 .entry--content > div:not(:last-child)  {
     padding-bottom: 7px;
